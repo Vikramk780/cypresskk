@@ -1,0 +1,16 @@
+{
+  "name": "k",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --browser chrome --headed",
+    "testheaded":"npm run test -- --headed --browser chrome",
+    "dashboardrunwithlogin":"npx cypress run --record --key 20d6fa12-7ca0-46cc-8699-83fb08875af6"
+  },
+  "author": "k",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.1"
+  }
+}
