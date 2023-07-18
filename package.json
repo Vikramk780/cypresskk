@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --browser chrome --headed",
+    "test": "npx cypress run --spec cypress/e2e/ --browser chrome --headed",
     "testheaded":"npm run test -- --headed --browser chrome",
     "dashboardrunwithlogin":"npx cypress run --record --key 20d6fa12-7ca0-46cc-8699-83fb08875af6"
   },
